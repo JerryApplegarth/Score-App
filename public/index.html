@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jerry Applegarth" />
+    <meta name="description" content="Learning HTML" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/public/img/four_apple.bmp" type="image/x-icon" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet" />
+      <!-- Custom Font -->
+      <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Score Board</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../public/css/styles.css" />
+
+    <script type="module" src="../public/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Roseburg Basketball</h1>
+    <div class="container">
+      <div>
+        
+        <h2>HOME</h2>
+        <h3 id="homeScore" class="homeScore">0</h3>
+        <button class="btnHome" id="btn1Home">+1</button><button class="btnHome" id="btn2Home">+2</button><button class="btnHome" id="btn3Home">+3</button>
+      </div>
+      <div>
+        <h2>GUEST</h2>
+        <h3 id="guestScore" class="guestScore">0</h3>
+        <button class="btnGuest" id="btn1Guest">+1</button><button class="btnGuest" id="btn2Guest">+2</button><button class="btnGuest" id="btn3Guest">+3</button>
+      </div>
+    </div>
+    <button id="resetHome" class="reset">Reset Home Score</button>
+    <button id="resetGuest" class="reset">Reset Guest Score</button>
+  </body>
+</html>
